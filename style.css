@@ -1,0 +1,13 @@
+#container {
+			/*width e height são definidos em 50% para evitar o aparecimento da barra de scroll na tela*/
+            width: 50%;
+            height:50%;
+            position: absolute;
+			/*ajustes de left e top para fazer com que os elementos se posicionem no centro da tela*/
+            left: 200px;
+            top: 50px;
+}
+body { 
+				margin: 0px;
+				padding: 0px;
+			}
