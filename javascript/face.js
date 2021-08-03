@@ -59,6 +59,8 @@ function HappyFace()
 		ctx.stroke();
 
 	}
+	else{
+		document.write("O seu navegador não conseguiu encontrar o canvas, sentimos muito")//irei colocar este aviso só uma vez, pois se eu colocar em todas as vezes que é perguntado sobre o contexto, o usuario recebe a mensagem 4 vezes
 }
 function SadFace()
 //essa função desenha o rosto verde 
